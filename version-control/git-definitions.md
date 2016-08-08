@@ -1,3 +1,4 @@
+**Hope you had a GREAT weekend! This my change to the document.
 
 # Git Definitions
 
