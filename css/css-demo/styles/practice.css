@@ -1,0 +1,24 @@
+#contact-info{
+	font-size: .8em;
+}
+
+.job{
+
+	background-color: #e9e5dc;
+	border-radius: 4px;
+	padding: 10px 0;
+	margin: 10px 0;
+}
+
+.list li {
+
+font-size: .8em;
+}
+
+.list li:first-child{
+	color: blue;
+}
+
+#work-experience section:nth-child(3){
+	color: blue;
+}
