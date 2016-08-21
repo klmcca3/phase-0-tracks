@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+		<!DOCTYPE html>
+		<html>
+			<head>
+				<!-- Bootstrap -->
+				<link href="css/bootstrap.min.css" rel="stylesheet">
+
+					<!--Style.css -->
+					<link href="css/style.css" rel="stylesheet">
+
+						<!--Font Awesome -->
+						<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+							<!--Google Font -->
+							<link href="https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu" rel="stylesheet">
+								<meta charset="UTF-8">
+									<title>$1</title>
+								</head>
+								<body>
+
+								</body>
+							</html>
+							]]></content>
+							<tabTrigger>html5</tabTrigger>
+							<scope>text.html</scope>
+						</snippet>
