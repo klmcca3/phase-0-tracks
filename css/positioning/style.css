@@ -1,0 +1,35 @@
+
+.content{
+	text-align: center;
+	position: relative;
+}
+
+img {
+	display: block;
+}
+.octopus {
+	padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clothes{
+	position: absolute;
+	TOP: 0;
+    LEFT: 40%;
+
+}
+
+.clothes img{
+	display: block;
+}
+
+.hat{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.glasses{
+	margin-left: auto;
+    margin-right: auto;
+}
