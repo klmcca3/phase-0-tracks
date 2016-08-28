@@ -1,0 +1,16 @@
+Algorithm to Brush your teeth.
+
+Need toothbrush
+	Grab toothbrush
+	Apply Toothpaste
+
+Brush teeth
+	rotate brush on the surface of you teeth in circlar motion thoughout your entire mouth. 
+
+	do this 20 times 
+
+Rinse mouth
+
+	consume a mouthful of water		
+	gargle without swallowing 
+	spit out water in sink		
