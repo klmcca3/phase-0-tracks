@@ -4,36 +4,39 @@
 # When there's more than one suspect who could have
 # committed the crime, add additional calls to prove it.
 
-# "iNvEsTiGaTiOn".<???>
-# => “InVeStIgAtIoN”
+p "iNvEsTiGaTiOn".swapcase
+p 'InVeStIgAtIoN'
 
-# "zom".<???>
-# => “zoom”
+p "zom".insert(1, 'o')
+p 'zoom'
 
-# "enhance".<???>
-# => "    enhance    "
+p "enhance".center(20)
+p '    enhance    '
 
-# "Stop! You’re under arrest!".<???>
-# => "STOP! YOU’RE UNDER ARREST!"
+p  "Stop! You’re under arrest!".upcase
+p 'STOP! YOU’RE UNDER ARREST!'
 
-# "the usual".<???>
-#=> "the usual suspects"
 
-# " suspects".<???>
-# => "the usual suspects"
+suspects = " suspects"
+p "the usual" + suspects.to_s 
+p "the usual".insert(-1, ' suspects') 
+p "the usual suspects"
 
-# "The case of the disappearing last letter".<???>
-# => "The case of the disappearing last lette"
+p " suspects".insert(0, 'the usual') 
+p "the usual suspects"
 
-# "The mystery of the missing first letter".<???>
-# => "he mystery of the missing first letter"
+p "The case of the disappearing last letter".chomp('r')
+p 'The case of the disappearing last lette'
 
-# "Elementary,    my   dear        Watson!".<???>
-# => "Elementary, my dear Watson!"
+p "The mystery of the missing first letter".slice(1..-1)
+p "he mystery of the missing first letter"
 
-# "z".<???>
-# => 122 
+p "Elementary,    my   dear        Watson!".squeeze
+p "Elementary, my dear Watson!"
+
+p "z".each_codepoint {|z| print z, ' ' }
+p  122 
 # (What is the significance of the number 122 in relation to the character z?)
 
-# "How many times does the letter 'a' appear in this string?".<???>
-# => 4
+p  "How many times does the letter 'a' appear in this string?".count "a"
+ p  4
