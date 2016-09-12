@@ -25,3 +25,4 @@ classroom['desk1'].pop
 #print's array without erasers
 puts "Array without erasers:"
 puts classroom['desk1']
+
