@@ -27,6 +27,33 @@ def fib(int)
   p array
 end
 
-fib(6)
-fib(10)
+fib(47)
+fib(7)
+
+
+#release 2
+
+def bubble_sort(array)
+	
+	n = array.length 
+	
+	loop do
+		swapped = false
+		
+		(n-1).times do |i|
+			if array[i] > array[i + 1]
+				array[i], array[i + 1] = array[i + 1], array[i]
+				swapped = true
+		    end
+		end
+		
+		break if not swapped
+		
+	end
+	
+	array
+end
+
+a = [1, 5, 6, 1, 1, 2, 4, 5, 9]
+bubble_sort(a)
 
