@@ -1,0 +1,50 @@
+body {
+	background-color: yellow;
+	font-size: 14px;
+	font-family: helvetica;
+}
+
+ h1, h2 {
+ 	letter-spacing: 2px;
+ }
+
+ h1:hover, h2:hover {
+ 	color:red;
+ }
+
+th{
+	text-decoration: underline;
+}
+main{
+	background-color: white;
+}
+main p {
+	padding: 30px;
+	margin: 20px;
+	font-style: italic;
+	border: 2px solid red;
+}
+
+nav ul {
+	list-style: none;
+}
+
+tr:nth-child(odd) {
+	background: #FFF
+}
+
+@media only screen and (min-width: 960px) {
+
+	nav {
+		display: block;
+		width: 20%;
+		margin-top: 100px;
+	}
+
+	main{
+		width: 70%;
+		float: right;
+	}
+ 	
+ } 
+	

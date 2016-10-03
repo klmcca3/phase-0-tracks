@@ -1,0 +1,16 @@
+body {
+	background-color: blue
+	font-size: 14px;
+	font-family: helvetica;
+}
+
+
+main{
+	background-color: white;
+}
+main p {
+	padding: 30px;
+	margin: 20px;
+	font-style: italic;
+	border: 2px solid red;
+}
