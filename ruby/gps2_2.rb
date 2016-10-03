@@ -1,44 +1,42 @@
-# Method to create a list
-# input: string of items separated by spaces (example: "carrots apples cereal pizza")
-# steps: 
-  # split the string into an array of items
-  # create an empy hash of items and quantity
-  # convert array to hash with items and quantities
-  # set default quantity to 1
-  # print a pretty list
-# output: hash with item as key and quantity as value
+#create a new list(hash) of groceries, with the key as the item, and the value as the quantity
 
-# Method to add an item to a list
-# input: item name and optional quantity
-# steps: use .merge to add new item and quantity to hash
-# output: updated hash with new item and quantity
 
-# Method to remove an item from the list
-# input:
-# steps:
-# output:
-
-# Method to update the quantity of an item
-# input:
-# steps:
-# output:
-
-# Method to print a list and make it look pretty
-# input:
-# steps:
-# output:
-
-def create(list_items)
-  list_array = list_items.split(" ")
-  list_hash = {}
-  list_array.each {|i| list_hash[i] = 1}
-  p list_hash
+def create_list(input)
+    list = {}
+    grocery_list = input.split(' ')
+    grocery_list.each do |item|
+        list[item] = 1
+    end
+    list
 end
 
-def add_item(new_hash, item, quantity)
-  new_hash.merge!({item => quantity})
+
+
+
+
+#create a method that adds an item to the list
+def add_item(hash, item)
+    hash[item] = 1
 end
 
-new_list = create("carrots apples cereal pizza")
-add_item(new_list, "chips", 3)
-p new_list
+#create and method that removes items from the list
+def remove_item(hash, item)
+    hash.delete(item)
+end
+
+#create an method that updates quantities
+def update(hash, item, quantity)
+    hash[item] = quantity
+end
+
+
+#print the list
+
+list = create_list("Beans Chicken Rice Salt")
+update(list, "Tomatoes", 3)
+update(list, "Lemonade", 2)
+update(list, "Onions", 1)
+update(list, "Ice Cream", 4)
+remove_item(list, "Lemonade")
+update(list, "Ice Cream", 1)
+p list
